@@ -7,6 +7,12 @@
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
+-- Create the database if it doesn't already exist
+CREATE DATABASE IF NOT EXISTS `patolot`;
+
+USE `patolot`;
+
+
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
 SET time_zone = "+00:00";
